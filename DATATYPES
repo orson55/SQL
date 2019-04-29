@@ -15,6 +15,7 @@ decimal	-10^38 +1	10^38 -1
 numeric	-10^38 +1	10^38 -1
 float	-1.79E + 308	1.79E + 308
 real	-3.40E + 38	3.40E + 38
+
 SQL Date and Time Data Types
 DATATYPE	DESCRIPTION
 DATE	Stores date in the format YYYY-MM-DD
