@@ -1,3 +1,7 @@
+Commonly used datatypes: INT, DECIMAL VARCHAR BLOB DATE TIMESTAMP
+VARCHAR (ENTER THE MAX AMOUNT OF CHARACTERS)
+DECIMAL (ENTER THE TOTAL NUMBER OF DIGITS STORED BEFORE THE DECIMAL AND THE AMOUNT OF NUMBERS AFTER DECIMAL SEPARATED BY A COMMA)
+
 SQL Data Types important points
 Not all data types are supported by every relational database vendors. For example, Oracle database doesn’t support DATETIME and MySQL doesn’t support CLOB data type. So while designing database schema and writing sql queries, make sure to check if the data types are supported or not.
 Data types listed here doesn’t include all the data types, these are the most popularly used data types. Some relational database vendors have their own data types that might be not listed here. For example, Microsoft SQL Server has money and smallmoney data types but since it’s not supported by other popular database vendors, it’s not listed here.
