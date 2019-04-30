@@ -1,6 +1,7 @@
 Commonly used datatypes: INT, DECIMAL VARCHAR BLOB DATE TIMESTAMP
 VARCHAR (ENTER THE MAX AMOUNT OF CHARACTERS)
 DECIMAL (ENTER THE TOTAL NUMBER OF DIGITS STORED BEFORE THE DECIMAL AND THE AMOUNT OF NUMBERS AFTER DECIMAL SEPARATED BY A COMMA)
+BLOB IS USED FOR IMAGES AND SUCH WITH A LOT OF BINARY DATA
 
 SQL Data Types important points
 Not all data types are supported by every relational database vendors. For example, Oracle database doesn’t support DATETIME and MySQL doesn’t support CLOB data type. So while designing database schema and writing sql queries, make sure to check if the data types are supported or not.
