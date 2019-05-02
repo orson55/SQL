@@ -1,1 +1,78 @@
+CREATE TABLE kivekset (
+kives_id INT AUTO_INCREMENT UNIQUE,
+name VARCHAR(20),
+description VARCHAR(200),
+synttärit DATE,
+PRIMARY KEY(kives_id)
 
+);
+
+/*DESCRIBE kivekset;
+SHOW IN CONSOLE*/
+
+SELECT * FROM  kivekset
+INSERT INTO kivekset(name, description, synttärit) VALUES ("heka", "pienet", 1111-11-11);
+UPDATE kivekset
+
+SET synttärit = 1995-05-05
+WHERE name = "heka";
+
+DROP TABLE kivekset;
+
+/*ALTER TABLE kivekset ADD property VARCHAR(50);*\
+ADD COLUMN
+
+/*INSERT INTO kivekset(HERE YOU MAY SPECIFY COLUMNS TO BE 
+AFFECTED) VALUES(input_1, input2, input3);*\
+ADD ROW
+SELECT * FROM kivekset;
+*/
+
+
+/*INSERT INTO kivekset(name, description) VALUES ("heka", "pienet")
+LISÄÄ RIVILLE TIEDOTDESCRIBE kivekset;
+SELECT * FROM  kivekset
+
+UPDATE kivekset
+SET name = "Orson"
+WHERE student_id = 1;
+
+SELECT * FROM  kivekset
+
+UPDATE kivekset
+SET name = "Orson"
+WHERE name = "Vili";
+
+SELECT * FROM  kivekset
+
+UPDATE kivekset
+SET description = "puu&metalli"
+WHERE description = "puu" OR description = "metalli";
+ALTERNATIVELY SYNTAX :USE WHERE description IN "PUU, "METALLI";
+
+SELECT * FROM  kivekset
+
+UPDATE kivekset
+SET name = "kiveskala", description = "kivekset omaava kala"
+WHERE kives_id = 2;*/
+/*
+SELECT * FROM kivekset;
+
+DELETE FROM kivekset
+WHERE kives_id = 1;
+DELETES TARGET ROW*/
+/*
+SELECT kivekset.name, kivekset.description FROM kivekset
+
+DELETE FROM kivekset
+WHERE kives_id = 1;
+ORDER BY ASC
+SELECTS SPECIFIC COLUMNS FROM THE TABLE 
+AND ORDERS THEM IN ASCENDING ORDER
+
+DELETE * FROM kivekset
+WHERE kives_id = 1;
+ORDER BY ASC
+LIMIT 2 (ONLY SHOWS 2 RESULTS)
+SELECTS SPECIFIC COLUMNS FROM THE TABLE 
+AND ORDERS THEM IN ASCENDING ORDER
